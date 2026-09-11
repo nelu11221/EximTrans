@@ -18,7 +18,6 @@ Planul inițial: `design/IMPLEMENTATION_PLAN.md`.
 | `/servicii` | `src/pages/Servicii.tsx` | 6 servicii (ancore `#ftl`, `#ltl`, `#frigo`…) + proces în 4 pași |
 | `/flota` | `src/pages/Flota.tsx` | Highlights + 4 tipuri de vehicule |
 | `/despre` | `src/pages/Despre.tsx` | Misiune, valori (`#valori`), istoric (timeline) |
-| `/urmarire` | `src/pages/Urmarire.tsx` | Urmărire expediere (demo: coduri `EX` + 6 caractere) |
 | `/contact` | `src/pages/Contact.tsx` | Date contact + formular cerere ofertă |
 
 ## Rulare
@@ -30,6 +29,6 @@ npm run build    # → dist/
 
 ## De completat
 - Datele de contact reale sunt în `src/data/site.ts` → `brand` (telefon, email, adresă — marcate `TODO`).
-- Formularul de contact și urmărirea sunt **demo** (fără backend) — vezi `// TODO` în `Contact.tsx` / `Urmarire.tsx`.
+- Formularul de contact este **demo** (fără backend) — vezi `// TODO` în `Contact.tsx`.
 - Imaginile sunt de pe Unsplash; înlocuiește-le cu fotografii proprii ale flotei.
 - La deploy pe hosting static, configurează fallback SPA (`/* → index.html`).

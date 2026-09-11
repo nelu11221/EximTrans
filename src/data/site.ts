@@ -45,7 +45,6 @@ export const nav = [
   { label: 'Servicii', to: '/servicii' },
   { label: 'Flotă', to: '/flota' },
   { label: 'Despre noi', to: '/despre' },
-  { label: 'Urmărire', to: '/urmarire' },
   { label: 'Contact', to: '/contact' },
 ]
 
@@ -260,7 +259,7 @@ export const cta = {
   headline: ['GATA SĂ-ȚI', 'TRIMITEM MARFA', 'LA DRUM?'],
   lead: 'Consultanții noștri sunt pregătiți să construiască strategia logistică potrivită afacerii tale. Începe astăzi.',
   primary: { label: 'Contactează-ne', to: '/contact' },
-  secondary: { label: 'Urmărește coletul', to: '/urmarire' },
+  secondary: { label: 'Vezi serviciile', to: '/servicii' },
 }
 
 export const contactInfo = [
@@ -295,7 +294,7 @@ export const footer = {
       links: [
         { label: 'Dispecerat 24/7', to: '/contact' },
         { label: 'Cere ofertă', to: '/contact' },
-        { label: 'Urmărire expediere', to: '/urmarire' },
+        { label: 'Reclamații & daune', to: '/contact' },
         { label: 'Termeni și condiții', to: '/contact' },
       ],
     },

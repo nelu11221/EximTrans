@@ -81,6 +81,6 @@ src/
 ## 7. Update — multi-page + EximTrans (RO)
 - Rebrand VeloHaul → **EximTrans**; tot conținutul în română (`src/data/site.ts`).
 - `react-router` v7: `Layout` (Header/Footer + tranziție `AnimatePresence` pe rută + `ScrollToTop` cu suport hash).
-- Pagini noi: `/servicii`, `/flota`, `/despre`, `/urmarire`, `/contact`, 404.
+- Pagini noi: `/servicii`, `/flota`, `/despre`, `/contact`, 404. (Pagina `/urmarire` a fost eliminată la cererea clientului.)
 - Componente noi: `PageHero` (hero compact pentru paginile interne), `SectionHeading`, `Button` cu suport `to`/`href`/`submit`.
-- Animații noi: timeline cu linie desenată de `useScroll`, reveal `scale` pe imaginile din flotă, pași proces cu `childScale`, rezultat tracking cu stagger.
+- Animații noi: timeline cu linie desenată de `useScroll`, reveal `scale` pe imaginile din flotă, pași proces cu `childScale`.
